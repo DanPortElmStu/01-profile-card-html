@@ -1,0 +1,45 @@
+body {
+  background-color: lightblue; /* Sets a soft blue background for the page */
+  text-align: center; /* Centers text inside the page body */
+  font-family: Arial, sans-serif; /* Uses a simple, easy-to-read font on the page */
+}
+
+.card {
+  background-color: white; /* White background makes the card stand out on the blue page */
+  border: 1px solid #ccc; /* Adds a thin gray border around the card */
+  border-radius: 10px; /* Rounds the corners of the card so it looks softer */
+  padding: 20px; /* Adds space inside the card so the text does not touch the edges */
+  margin: 20px auto; /* Centers the card on the page and adds space above and below */
+  width: 80%; /* Sets the card to use most of the width on smaller screens */
+  max-width: 600px; /* Stops the card from getting too wide on large screens */
+}
+
+h1 {
+  font-size: 48px; /* Makes the main heading large so it is easy to read */
+  color: darkblue; /* Uses a dark blue color to match the page palette */
+}
+
+h2 {
+  font-size: 32px; /* Makes the subheading smaller than the main heading */
+  color: slategrey; /* Uses a soft grey color so it does not compete with the main heading */
+}
+
+p {
+  font-size: 18px; /* Makes the paragraph text a readable size */
+  line-height: 1.6; /* Adds spacing between lines so the paragraph is easier to read */
+}
+
+.card img {
+  width: 150px; /* Sets a fixed width for the image */
+  height: auto; /* Maintains the aspect ratio of the image */ 
+  border-radius: 50%; /* Makes the image circular */
+}
+
+ul {
+  list-style-type: none; /* Removes the default bullet points from the list */
+  padding: 0; /* Removes default padding from the list */
+}
+
+li {
+  margin: 10px 0; /* Adds space between list items */
+}
